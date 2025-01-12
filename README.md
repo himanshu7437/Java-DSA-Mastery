@@ -22,7 +22,7 @@ The goal of this repository is to share the code I write while learning **Java p
 ---
 
 ## 🚀 How to Use:
-1. **Clone the Repo**: git clone https://github.com/yourusername/Java-DSA-Learning.git
+1. **Clone the Repo**: git clone https://github.com/himanshu7437/Java-DSA-Learning.git
 2. **Explore the Code**: Browse through the `.java` files.
 3. **Run Examples**.
 
