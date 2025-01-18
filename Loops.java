@@ -38,7 +38,16 @@ public class Loops {
     } while (guess != target); // Loop until the correct guess
     System.out.println("Correct! The number was " + target + ".");
 
-    
+    // **Example 4: Nested Loops for Patterns**
+    // Nested loops can be used for complex iterations, such as generating patterns.
+    System.out.println("\nExample 4: Printing a simple pattern:");
+    int rows = 4;
+    for (int i = 1; i <= rows; i++) { // Outer loop for rows
+      for (int j = 1; j <= i; j++) { // Inner loop for columns
+        System.out.print("* ");
+      }
+      System.out.println(); // Move to the next line after each row
+    }
 
     // Closing the Scanner
     sc.close();
