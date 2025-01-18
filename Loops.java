@@ -24,7 +24,22 @@ public class Loops {
     }
     System.out.println("Final Sum: " + sum);
 
+    // **Example 3: Validating Input with a Do-While Loop**
+    // The `do-while` loop ensures the block of code runs at least once, even if the condition is initially false.
+    System.out.println("\nExample 3: Guess a number between 1 and 10:");
+    int guess;
+    int target = 7; // Target number to guess
+    do {
+      System.out.print("Enter your guess: ");
+      guess = sc.nextInt();
+      if (guess != target) {
+        System.out.println("Wrong guess, try again!");
+      }
+    } while (guess != target); // Loop until the correct guess
+    System.out.println("Correct! The number was " + target + ".");
+
     
+
     // Closing the Scanner
     sc.close();
   }
