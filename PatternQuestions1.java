@@ -80,7 +80,44 @@ public class PatternQuestions1 {
       }
       System.out.println();
   
-      
+      // **7. Hollow Rectangle**
+      System.out.println("7. Hollow Rectangle:");
+      for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= n; j++) {
+          if (i == 1 || i == n || j == 1 || j == n) {
+            System.out.print("* ");
+          } else {
+            System.out.print("  "); // Print spaces inside
+          }
+        }
+        System.out.println();
+      }
+      System.out.println();
+  
+      // **8. Number Triangle**
+      System.out.println("8. Number Triangle:");
+      for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= i; j++) {
+          System.out.print(j + " "); // Print numbers in ascending order
+        }
+        System.out.println();
+      }
+      System.out.println();
+  
+      // **9. Pascal's Triangle**
+      System.out.println("9. Pascal's Triangle:");
+      for (int i = 0; i < n; i++) {
+        int number = 1;
+        for (int j = 1; j <= n - i; j++) {
+          System.out.print("  "); // Print spaces
+        }
+        for (int j = 0; j <= i; j++) {
+          System.out.print(number + "   ");
+          number = number * (i - j) / (j + 1); // Calculate binomial coefficient
+        }
+        System.out.println();
+      }
+      System.out.println();
     }
   }
   
