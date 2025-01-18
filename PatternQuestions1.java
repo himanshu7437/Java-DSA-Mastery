@@ -22,6 +22,29 @@ public class PatternQuestions1 {
       }
       System.out.println();
   
+      // **3. Inverted Right Triangle**
+      System.out.println("3. Inverted Right Triangle:");
+      for (int i = n; i >= 1; i--) {
+        for (int j = 1; j <= i; j++) {
+          System.out.print("* ");
+        }
+        System.out.println();
+      }
+      System.out.println();
+  
+      // **4. Pyramid**
+      System.out.println("4. Pyramid:");
+      for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= n - i; j++) {
+          System.out.print("  "); // Print spaces
+        }
+        for (int j = 1; j <= (2 * i - 1); j++) {
+          System.out.print("* ");
+        }
+        System.out.println();
+      }
+      System.out.println();
+  
       
     }
   }
