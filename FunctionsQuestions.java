@@ -1,4 +1,4 @@
-// Enter 3 numbers from the user & make a function to print their average.
+
 // Write a function to print the sum of all odd numbers from 1 to n.
 // Write a function which takes in 2 numbers and returns the greater of those two.
 // Write a function that takes in the radius as input and returns the circumference of a circle.
@@ -144,7 +144,14 @@ public class FunctionsQuestions {
         //...........................................
 
         // ques - 7 Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered. 
+        // Scanner sc = new Scanner(System.in);
 
+        // while (true) { 
+        //     System.out.println("Enter the digit:");
+        //     int a = sc.nextInt();
+        // }
+
+        //ques-8 Two numbers are entered by the user, x and n. Write a function to find the value of one number raised to the power of another i.e. xn.
         
 
 
