@@ -1,9 +1,8 @@
-import java.util.Scanner;
 
 public class ConditionalStatement {
   public static void main(String[] args) {
     // Create a Scanner object to read user input
-    Scanner sc = new Scanner(System.in);
+    // Scanner sc = new Scanner(System.in);
 
     // **Example 1: Checking Age (commented out)**
     // This commented section demonstrates a simple if-else statement.
