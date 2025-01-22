@@ -5,14 +5,14 @@ public class Arrayss {
         // Arrays
 
         //examples..
-        int[] studentMarks = new int[5];
-        //int studentMarks[] = new int[5]; --- Also valid
+        // int[] studentMarks = new int[5];
+        // //int studentMarks[] = new int[5]; --- Also valid
 
-        studentMarks[0] = 56;
-        studentMarks[1] = 100;
-        studentMarks[2] = 87;
-        studentMarks[3] = 43;
-        studentMarks[4] = 43;
+        // studentMarks[0] = 56;
+        // studentMarks[1] = 100;
+        // studentMarks[2] = 87;
+        // studentMarks[3] = 43;
+        // studentMarks[4] = 43;
 
         // System.out.println("the student marks of first subject is " + studentMarks[0]);
         // System.out.println("the student marks of Second subject is " + studentMarks[1]);
@@ -28,7 +28,6 @@ public class Arrayss {
         // int [] student2Marks = {23,45,64,76,54};
 
         // array by taking size as input
-
         // Scanner sc = new Scanner(System.in);
         // int size = sc.nextInt();
         // int numbers[] = new int[size];
