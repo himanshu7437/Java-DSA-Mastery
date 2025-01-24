@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class bitManipulation {
     public static void main(String[] args) {
@@ -46,5 +47,20 @@ public class bitManipulation {
         //     int result = n | bitmask;
         //     System.out.println("the answer is " + result);
         // }
+
+        // ques - Write a program to count the number of 1’s in a binary representation of the number.
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number -");
+        int n = sc.nextInt();
+
+        int count=0;
+
+        while (n!=0) { 
+            count+= n&1;
+            n>>=1;
+        }
+        
+        System.out.println("the number of one is " + count);
+
     }
 }
