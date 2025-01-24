@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class bitManipulation {
     public static void main(String[] args) {
@@ -49,18 +48,51 @@ public class bitManipulation {
         // }
 
         // ques - Write a program to count the number of 1’s in a binary representation of the number.
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number -");
-        int n = sc.nextInt();
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter the number -");
+        // int n = sc.nextInt();
 
-        int count=0;
+        // int count=0;
 
-        while (n!=0) { 
-            count+= n&1;
-            n>>=1;
-        }
+        // while (n!=0) { 
+        //     count+= n&1;
+        //     n>>=1;
+        // }
         
-        System.out.println("the number of one is " + count);
+        // System.out.println("the number of one is " + count);
+
+       // ques - Write 2 programs => decimalToBinary() & binaryToDecimal() to convert a number from one number system to another.
+
+       // decimal to binary
+
+    //    int n = 10;
+    //    StringBuilder binary = new StringBuilder();
+        
+    //    if (n==0) {
+    //        System.out.println("0");
+    //    } else {
+    //        while(n>0) {
+    //         binary.insert(0, n%2);
+    //         n/=2;
+    //        }
+    //    }
+
+    //    String result = binary.toString();
+    //    System.out.println("the binary number is " + result);
+
+
+    // decimal to binary
+
+    // String binary = "1000";
+    //    int decimal = 0;
+    //    int length = binary.length();
+
+    //     for (int i = 0; i < length; i++) {
+    //         int bit = binary.charAt(length-1-i) - '0';
+    //         decimal += bit * Math.pow(2, i);
+    //     }
+
+    //    System.out.println("the number is " + decimal);
 
     }
 }
