@@ -94,5 +94,5 @@ public class bitManipulation {
 
     //    System.out.println("the number is " + decimal);
 
-    }
+    } 
 }
