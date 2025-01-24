@@ -19,9 +19,27 @@ public class sortinginjava {
         //     System.out.print(arr[i] + " ");
         // }
 
-        //2. selection sort
+        //2. selection sort (time complexity - 0(n^2))
 
-        int arr[] = {3,5,2,7,6,9};
+        // int arr[] = {3,5,2,7,6,9};
+
+        // for (int i = 0; i < arr.length-1; i++) {
+        //     int smallest = i;
+        //     for (int j = i+1;j < arr.length;j++) {
+        //         if (arr[smallest]>arr[j]) {
+        //             smallest = j;
+        //         }
+        //     }
+        //     int temp = arr[smallest];
+        //     arr[smallest] = arr[i];
+        //     arr[i] = temp;
+        // }
+
+        // for (int i = 0; i < arr.length; i++) {
+        //     System.out.print(arr[i] + " ");
+        // }
+
+        // 
 
 
     }
