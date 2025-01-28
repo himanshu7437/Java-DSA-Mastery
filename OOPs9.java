@@ -1,5 +1,8 @@
 abstract class Animal {
     abstract void walk();
+    public void eat() {
+        System.out.println("Animal eats");
+    }
 }
 
 class Horse extends Animal {
@@ -29,6 +32,7 @@ public class OOPs9 {
 
         Horse horse = new Horse();
         horse.walk();
+        horse.eat();
         // Animal animal = new Animal();
         // animal.walk(); ----> Animal is abstract; cannot be instantiated
     }
