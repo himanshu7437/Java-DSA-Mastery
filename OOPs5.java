@@ -25,5 +25,6 @@ public class OOPs5 {
 
         // types 
         // 2. Multi-level inheritance
+        // Multilevel inheritance is a process of deriving a class from another derived class. 
     }
 }

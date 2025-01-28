@@ -6,15 +6,17 @@ public class OOPs8 {
     public static void main(String[] args) {
         
         //packages
-        // we can build packages and use them in each other by importing
+        //Package is a group of similar types of classes, interfaces and sub-packages. Packages can be built-in or user defined.
+        // Built-in packages - java, util, io etc.
 
-        // Access - modifier
+        // Access-modifier
 
-        // 4 types:
-        // 1. public open to all
-        // 2. private os not acceseble in other functions or packages
-        // 3. Protected
-        // 4. Default
+        // 4 types (access-modifier):
+        // Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
+        // Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+        // Protected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
+        // Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
+        
 
         // bankPackage.Account account2 = new bankPackage();
         // account2.name = "Himanshu";

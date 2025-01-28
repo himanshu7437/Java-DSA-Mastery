@@ -25,5 +25,7 @@ public class OOPs6 {
 
         // types 
         // 3. Heirarchical inheritance
+        // Hierarchical inheritance is defined as the process of deriving more than one class from a base class. 
+
     }
 }

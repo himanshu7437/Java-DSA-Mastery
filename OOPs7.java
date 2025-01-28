@@ -31,5 +31,7 @@ public class OOPs7 {
 
         // types 
         // 4. Hybrid inheritance
+        // Hybrid inheritance is a combination of 
+        // simple, multiple inheritance and hierarchical inheritance. 
     }
 }

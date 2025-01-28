@@ -19,5 +19,6 @@ public class OOPs4 {
 
         // types 
         // 1. single level inheritance
+        // When one class inherits another class, it is known as single level inheritance 
     }
 }
