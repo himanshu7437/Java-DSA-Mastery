@@ -12,9 +12,9 @@ public void area (int l, int h) {
 }
 }
 
-class EquilateralTriangle extends Triangle {
-    public void area (int l, int h) {
-        System.out.println(1/2*l*h);
+class Circle extends Shape {
+    public void area (int r) {
+        System.out.println((3.14)*r*r);
     }
 }
 
@@ -24,6 +24,6 @@ public class OOPs6 {
         //inheritance
 
         // types 
-        // 2. Multi-level inheritance
+        // 3. Heirarchical inheritance
     }
 }
