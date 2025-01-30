@@ -1,23 +1,47 @@
 
-import java.util.LinkedList;
-
 public class linkedList3 {
-    
+
     public static void main(String[] args) {
-        
+
         // linked list questions
 
-        // ques - 
+        // ques -1)
+        // https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/
 
-        LinkedList<String> list = new LinkedList<String>();
+        // class Solution {
+        // public ListNode removeNthFromEnd(ListNode head, int n) {
+        // if (head.next == null ) {
+        // return null;
+        // }
 
-        list.add("my");
-        list.add("name");
-        list.add("is");
-        list.add("himanshu");
+        // // to get the size
+        // int size = 0;
+        // ListNode curr = head;
+        // while (curr != null) {
+        // curr = curr.next;
+        // size++;
+        // }
 
-        System.out.println(list);
+        // // special case (when size == n)
+        // if(n == size) {
+        // return head.next;
+        // }
+        // // previous to the nth node
+        // int indexToSearch = size - n;
+        // ListNode prev = head;
+        // int i = 1;
+        // while (i < indexToSearch ) {
+        // prev = prev.next;
+        // i++;
+        // }
 
-        int n = 2;
+        // // deleting the nth node
+        // prev.next = prev.next.next;
+        // return head;
+
+        // }
+        // }
+
+
     }
 }
