@@ -1,4 +1,7 @@
 
+import java.util.ArrayList;
+
+
 
 public class binarySeachTree {
     static class Node {
@@ -107,6 +110,10 @@ public class binarySeachTree {
             printInRange(root.right, X, Y);
         }
     }
+
+    public static void printRoot2Leaf(Node root, ArrayList<Integer>) {
+        
+    }
     public static void main(String[] args) {
         
         // Binary Search Tree
@@ -147,6 +154,9 @@ public class binarySeachTree {
 
         //print in range
         printInRange(root, 6, 12);
+
+        //root to leaf paths
+
     }
 
 }
