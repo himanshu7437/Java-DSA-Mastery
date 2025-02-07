@@ -44,10 +44,10 @@ public class hashMapInJava {
 
         // using that iteration on hashmap
 
-        for ( Map.Entry<String, Integer> e : map.entrySet()) {
-            System.out.println(e.getKey());
-            System.out.println(e.getValue());
-        }
+        // for ( Map.Entry<String, Integer> e : map.entrySet()) {
+        //     System.out.println(e.getKey());
+        //     System.out.println(e.getValue());
+        // }
 
         Set<String> keys = map.keySet();
         for (String key : keys) {
