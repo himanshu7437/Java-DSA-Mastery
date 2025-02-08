@@ -15,8 +15,8 @@ public class hashMapInJava {
 
         System.out.println(map);
 
-        map.put("china", 150);  // if already exist, update the value.
-        System.out.println(map);
+        // map.put("china", 150);  // if already exist, update the value.
+        // System.out.println(map);
 
         // search
         // if (map.containsKey("china")) {
@@ -49,12 +49,12 @@ public class hashMapInJava {
         //     System.out.println(e.getValue());
         // }
 
-        Set<String> keys = map.keySet();
-        for (String key : keys) {
-            System.out.println(key + " "+ map.get(key));
-        }
+        // Set<String> keys = map.keySet();
+        // for (String key : keys) {
+        //     System.out.println(key + " "+ map.get(key));
+        // }
 
-        map.remove("china");
-        System.out.println(map);
+        // map.remove("china");
+        // System.out.println(map);
     }
 }
