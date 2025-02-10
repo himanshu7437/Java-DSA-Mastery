@@ -6,7 +6,7 @@ Welcome to the **Java DSA Repository**! 🚀 This guide will help you navigate t
 📌 How to Get Started
 ---------------------
 
-1.  git clone
+1.  git clone - https://github.com/himanshu7437/Java-DSA-Mastery.git
     
 2.  Open the project in your favorite **IDE (IntelliJ IDEA, VS Code, Eclipse, etc.)**.
     
@@ -20,84 +20,82 @@ Welcome to the **Java DSA Repository**! 🚀 This guide will help you navigate t
 
 *   [**Hello World**](./HelloWorld.java) – Your first Java program 🎉
     
-*   [**Variables in Java**](https://chatgpt.com/c/Variables.java) – Understanding data types and memory allocation
+*   [**Variables in Java**](./Variable.java) – Understanding data types and memory allocation
     
 
 ### 2️⃣ Control Flow
 
-*   [**Conditional Statements**](https://chatgpt.com/c/ConditionalStatements.java) – if, else, switch-case
+*   [**Conditional Statements**](./ConditionalStatement.java) – if, else, switch-case
     
-*   [**Loops**](https://chatgpt.com/c/Loops.java) – for, while, do-while
+*   [**Loops**](./Loops.java) – for, while, do-while
     
 
 ### 3️⃣ Pattern Problems
 
-*   [**Basic Pattern Questions**](https://chatgpt.com/c/PatternQuestions.java) – Simple star and number patterns ✨
+*   [**Basic Pattern Questions**](./PatternQuestions1.java) – Simple star and number patterns ✨
     
-*   [**Advanced Pattern Questions**](https://chatgpt.com/c/AdvancedPatternQuestions.java) – Complex pyramid and diamond patterns 🔺
+*   [**Advanced Pattern Questions**](./AdvancePatternQuestions.java) – Complex pyramid and diamond patterns 🔺
     
 
 ### 4️⃣ Functions & Complexity Analysis
 
-*   [**Functions & Methods**](https://chatgpt.com/c/FunctionsAndMethods.java) – Writing reusable code
+*   [**Functions & Methods**](./FunctionsandMethods.java) – Writing reusable code
     
-*   [**Functions in Java**](https://chatgpt.com/c/FunctionsInJava.java) – Parameters, return types, and recursion
+*   [**Functions in Java**](./FunctionsQuestions.java) – Parameters, return types, and recursion
     
-*   [**Time & Space Complexity**](https://chatgpt.com/c/TimeComplexity.java) – Big O notation demystified 📈
+*   [**Time & Space Complexity**](./SpaceandComplexity.md) – Big O notation demystified 📈
     
 
 ### 5️⃣ Arrays & Strings
 
-*   [**Arrays Introduction**](https://chatgpt.com/c/ArraysIntro.java) – Basics of 1D arrays
+*   [**Arrays Introduction**](./Arrayss.java) – Basics of 1D arrays
     
-*   [**2D Arrays**](https://chatgpt.com/c/TwoDArrays.java) – Matrix operations 🟦
+*   [**2D Arrays**](./Arrayss2d.java) – Matrix operations 🟦
     
-*   [**String & StringBuilder**](https://chatgpt.com/c/StringBuilder.java) – Efficient string manipulations
+*   [**String & StringBuilder**](./stringBuilder.java) – Efficient string manipulations
     
 
 ### 6️⃣ Number Systems & Bitwise Operations
 
-*   [**Operators & Binary System**](https://chatgpt.com/c/OperatorsBinary.java) – Arithmetic and logical operators ⚙️
+*   [**Operators & Binary System**](./operatorsandBinarynumber.md) – Arithmetic and logical operators ⚙️
     
-*   [**Bit Manipulation**](https://chatgpt.com/c/BitManipulation.java) – Efficient tricks for binary operations 💡
+*   [**Bit Manipulation**](./bitManipulation.java) – Efficient tricks for binary operations 💡
     
 
 ### 7️⃣ Sorting & Recursion
 
-*   [**Sorting in Java**](https://chatgpt.com/c/Sorting.java) – Bubble, Insertion, Selection, etc.
+*   [**Sorting in Java**](./sortinginjava.java) – Bubble, Insertion, Selection, etc.
     
-*   [**Recursion**](https://chatgpt.com/c/Recursion.java) – Understanding base cases and recursive calls 🔄
+*   [**Recursion**](./recursions.java) – Understanding base cases and recursive calls 🔄
     
-*   [**Backtracking**](https://chatgpt.com/c/Backtracking.java) – Solving complex problems with recursion
+*   [**Backtracking**](./backtracking.java) – Solving complex problems with recursion
     
-*   [**Merge Sort & Quick Sort**](https://chatgpt.com/c/MergeQuickSort.java) – Divide & Conquer strategies
+*   [**Merge Sort &**](./mergesort.java) [**Quick Sort**](./quickSort.java) – Divide & Conquer strategies
     
 
 ### 8️⃣ Object-Oriented Programming (OOPs)
 
-*   [**Java OOPs**](https://chatgpt.com/c/JavaOOPs.java) – Classes, objects, inheritance, polymorphism, encapsulation 🏗️
+*   [**Java OOPs**](./OOPs1.java) – Classes, objects, inheritance, polymorphism, encapsulation 🏗️
     
 
 ### 9️⃣ Advanced Data Structures
 
-*   [**ArrayList**](https://chatgpt.com/c/ArrayList.java) – Dynamic arrays in Java
+*   [**ArrayList**](./arraysList.java) – Dynamic arrays in Java
     
-*   [**Java Collection Framework**](https://chatgpt.com/c/JavaCollectionFramework.java) – Lists, sets, maps 🗂️
+*   [**Java Collection Framework**](./colectionFramework.java) – Lists, sets, maps 🗂️
     
-*   [**LinkedList & Questions**](https://chatgpt.com/c/LinkedList.java) – Singly and doubly linked lists 🔗
+*   [**LinkedList & Questions**](./linkedList.java) – Singly and doubly linked lists 🔗
     
-*   [**Stack & Queue**](https://chatgpt.com/c/StackQueue.java) – LIFO & FIFO principles 🏗️
+*   [**Stack &**](./stackCF.java) [**Queue**](./queues.java) – LIFO & FIFO principles 🏗️
     
-*   [**Binary Tree & BST**](https://chatgpt.com/c/BinaryTreeBST.java) – Depth-first and breadth-first traversals 🌳
+*   [**Binary Tree &**](./binaryTree.java)[**BST**](./binarySeachTree.java) – Depth-first and breadth-first traversals 🌳
     
 
 ### 🔟 Hashing & Data Storage
 
-*   [**HashSet**](https://chatgpt.com/c/HashSet.java) – Unique data storage
+*   [**HashSet**](./hashSetInJava.java) – Unique data storage
     
-*   [**HashMap & Implementation**](https://chatgpt.com/c/HashMapImplementation.java) – Key-value pairs explained 🔑
-    
-*   [**Hashing in Java**](https://chatgpt.com/c/Hashing.java) – Hash functions & collision handling
+*   [**HashMap &**](./hashMapInJava.java) [**Implementation**](./hashMapImplem.java) – Key-value pairs explained 🔑
     
 
 🎯 Tips for Maximum Learning
